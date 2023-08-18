@@ -101,6 +101,15 @@ A fuzzy file finder, picker, sorter, previewer and much more:
 - Indentlines with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - Useful snippets with [friendly snippets](https://github.com/rafamadriz/friendly-snippets) + [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
 - Popup mappings keysheet [whichkey.nvim](https://github.com/folke/which-key.nvim)
+- Git diff [diffview.nvim](https://github.com/sindrets/diffview.nvim)
+- Hop between changes in a file [undotree.nvim](https://github.com/mbbill/undotree)
+- Language support
+    - [Typescript](https://github.com/typescript-language-server/typescript-language-server) `npm install -g typescript typescript-language-server`
+    - [volar(vue)](https://github.com/johnsoncodehk/volar/tree/20d713b/packages/vue-language-server) `npm install -g @vue/language-server`
+    - [css modules](https://github.com/antonk52/cssmodules-language-server) `npm install -g cssmodules-language-server`
+    - [css](https://github.com/hrsh7th/vscode-langservers-extracted) `npm i -g vscode-langservers-extracted`
+    - [tailwind](https://github.com/tailwindlabs/tailwindcss-intellisense) `npm install -g @tailwindcss/language-server`
+    - [html](https://github.com/hrsh7th/vscode-langservers-extracted)
 
 ## History
 
