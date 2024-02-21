@@ -1,5 +1,10 @@
 local plugins = {
   {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    lazy = false,
+  },
+  {
     "mbbill/undotree",
     lazy = false,
   },
