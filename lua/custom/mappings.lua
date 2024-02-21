@@ -13,9 +13,9 @@ M.undotree = {
   },
 }
 
-M.transparentBg = {
+M.tagbar = {
   n = {
-    ["<leader>tt"] = { "<cmd> TransparentToggle <CR>", "Toggle transparent background" },
+    ["<leader>tt"] = { "<cmd> TagbarToggle <CR>", "Toggle tagbar" },
   },
 }
 

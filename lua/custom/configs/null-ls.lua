@@ -7,10 +7,14 @@ local lint = null_ls.builtins.diagnostics
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 local sources = {
-  formatting.prettier,
+  formatting.prettier.with {
+    extra_args = { "--double-quote", "--jsx-double-quote" },
+  },
   formatting.stylua,
-
   lint.shellcheck,
+  null_ls.builtins.diagnostics.mypy,
+  null_ls.builtins.diagnostics.ruff,
+  null_ls.builtins.formatting.black,
 }
 
 null_ls.setup {

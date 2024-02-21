@@ -34,3 +34,14 @@ lspconfig.html.setup {
   on_attach = on_attach,
   capabilities = capabilities,
 }
+
+lspconfig.csharp_ls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
+lspconfig.pyright.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filtypes = { "python" },
+}

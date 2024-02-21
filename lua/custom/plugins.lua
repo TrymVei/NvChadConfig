@@ -11,6 +11,14 @@ local plugins = {
     lazy = false,
   },
   {
+    "preservim/tagbar",
+    lazy = false,
+  },
+  {
+    "rafamadriz/friendly-snippets",
+    lazy = false,
+  },
+  {
     "neovim/nvim-lspconfig",
     dependencies = {
       "jose-elias-alvarez/null-ls.nvim",
@@ -37,6 +45,10 @@ local plugins = {
         "tailwindcss",
         "cssls",
         "html",
+        "pyright",
+        "mypy",
+        "ruff",
+        "black",
       },
     },
   },
