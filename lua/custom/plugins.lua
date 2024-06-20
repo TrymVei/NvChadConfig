@@ -4,6 +4,14 @@ local plugins = {
     dependencies = { "nvim-tree/nvim-web-devicons" },
     lazy = false,
   },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   cmd = "Copilot",
+  --   event = "InsertEnter",
+  --   config = function()
+  --     require "custom.configs.copilot"
+  --   end,
+  -- },
   {
     "mbbill/undotree",
     lazy = false,
