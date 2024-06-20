@@ -23,5 +23,10 @@ M.trouble = {
     ["<leader>tr"] = { "<cmd> TroubleToggle <CR>", "Toggle Trouble" },
   },
 }
+M.copilot = {
+  n = {
+    ["<leader>cp"] = { "<cmd> Copilot panel <CR>", "Open Copilot panel" },
+  },
+}
 
 return M
