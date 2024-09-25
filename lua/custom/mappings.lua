@@ -20,12 +20,18 @@ M.tagbar = {
 }
 M.trouble = {
   n = {
-    ["<leader>tr"] = { "<cmd> TroubleToggle <CR>", "Toggle Trouble" },
+    ["<leader>tr"] = { "<cmd>Trouble diagnostics toggle<cr>", "Toggle Trouble" },
+    ["<leader>tR"] = { "<cmd>Trouble diagnostics toggle filter.buf=0<cr>", "Toggle Trouble in current buffer" },
   },
 }
 M.copilot = {
   n = {
     ["<leader>cp"] = { "<cmd> Copilot panel <CR>", "Open Copilot panel" },
+  },
+}
+M.shortcuts = {
+  n = {
+    ["<leader>ctc"] = { "c/[A-Z]<CR>", "Change to first capital letter" },
   },
 }
 
