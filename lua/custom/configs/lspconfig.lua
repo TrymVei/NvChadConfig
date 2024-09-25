@@ -45,3 +45,8 @@ lspconfig.pyright.setup {
   capabilities = capabilities,
   filtypes = { "python" },
 }
+
+lspconfig.astro.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}

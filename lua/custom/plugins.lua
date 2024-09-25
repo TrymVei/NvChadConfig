@@ -1,8 +1,8 @@
 local plugins = {
   {
     "folke/trouble.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
-    lazy = false,
+    opts = {}, -- for default options, refer to the configuration section for custom setup.
+    cmd = "Trouble",
   },
   -- {
   --   "zbirenbaum/copilot.lua",
@@ -62,6 +62,7 @@ local plugins = {
         "mypy",
         "ruff",
         "black",
+        "astro-language-server",
       },
     },
   },
